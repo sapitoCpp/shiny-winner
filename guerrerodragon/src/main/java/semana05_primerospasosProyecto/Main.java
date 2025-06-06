@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		   
 		//Parte 1: Añadir cancion a favoritos.
-		
+		/*
 		Usuario u = new Usuario("Pepito");
 	    Biblioteca b = new Biblioteca();
 	    b.cargarCanciones();
@@ -12,9 +12,9 @@ public class Main {
 	    u.agregarFavoritos(b.elegirCancion(b.getCanciones()));
 	    System.out.println("Mostrando canciones de favoritos:");
 	    u.mostrarCancionesFavoritos();
-		
+		*/
 		//Parte 2: Eliminar cancion de favoritos
-	    /*
+	    
 		Usuario u = new Usuario("Pepito");
 	    Biblioteca b = new Biblioteca();
 	    b.cargarCanciones();
@@ -29,7 +29,7 @@ public class Main {
 		u.eliminarFavoritos(u.elegirCancionFavoritos(u.getFavoritos()));
 		System.out.println("Despues de eliminar: ");
 		u.mostrarCancionesFavoritos();
-		*/
+		
 		//Parte 3: Añadir cancion a una playlist seleccionada.
 		/*
 		Usuario u = new Usuario("Pepito");
